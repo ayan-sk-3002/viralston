@@ -7,12 +7,19 @@
     font-family: 'Spartan',sans-serif;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 /* 
 #18e3dd
 #3088f3
 
 */
-
+.underlined-text{
+  text-decoration: underline;
+}
 /* --------- Global Style Sheet ---------*/
 button.normal{
     font-size: 14px;
@@ -24,7 +31,7 @@ button.normal{
     color: #fff;
   
     border: 1px solid #141411;
-    background-color: #006eff ;
+    background-color: #008eb9 ;
     transition: 0.2s;
     cursor: pointer; 
     transition: 0.2s;
@@ -49,7 +56,7 @@ button{
     color: #fff;
   
     border: none;
-    background: linear-gradient(-45deg, #1701e0 ,#006eff ,  #006eff , #006eff );
+    background: linear-gradient(-45deg, #1701e0 ,#008eb9 ,  #008eb9 , #008eb9 );
     animation: btn-color 10s ease infinite;
     background-size: 400% 400%;
     
@@ -62,9 +69,9 @@ button{
 }
 
 button:hover{ 
-  background-color: #006eff;
+  background-color: #008eb9;
   color: #fff;
-  box-shadow: 0px 0px 5px #006eff, 0px 0px 25px #006eff, 0px 0px 30px #006eff, 0px 0px 80px #006eff;
+  box-shadow: 0px 0px 5px #008eb9, 0px 0px 25px #008eb9, 0px 0px 30px #008eb9, 0px 0px 80px #008eb9;
 
 }
 h1 {
@@ -187,7 +194,7 @@ transform: translateY(0px);
   }
   #navBar.sticky{
     padding: 10px 80px;
-    background-color: #006eff;
+    background-color: #008eb9;
     background-position: center;
   }
 
@@ -203,7 +210,7 @@ transform: translateY(0px);
   color: #000;
 
   border: 1px solid #fff;
-  background-color: #006eff;
+  background-color: #008eb9;
 }
 
 
@@ -237,7 +244,7 @@ transform: translateY(0px);
     color: #979797;
   }
   #navBar a:hover{
-    color: #006eff;
+    color: #008eb9;
   }
   #navBar.sticky button.normal{
 
@@ -311,7 +318,7 @@ transform: translateY(0px);
     text-align: left;
   }
   .introBox #wd{
-    color: #006eff;
+    color: #008eb9;
   }
   .introBox p,
   .introBox p strong{
@@ -426,7 +433,7 @@ position: absolute;
   margin-bottom: 150px;
   font-size: 60px;
   z-index: 5;
-  color: #006eff;
+  color: #008eb9;
 }
 #services h1{
   text-align: center;
@@ -439,7 +446,7 @@ position: absolute;
   flex-wrap: wrap;
   padding: 80px 40px;
   border-radius: 20px;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
  position: relative;
  align-items: center;
 
@@ -482,7 +489,7 @@ font-weight: 600;
   width: 100%;
 }
 #e1{
-width: 100%;
+width: 95%;
 border-radius: 16px;
 margin-left: 10px;
 
@@ -501,12 +508,12 @@ margin-left: 10px;
 #whyus{
   width: 100%;
   padding: 20px 80px 120px 80px;
-  color: #006eff;
+  color: #008eb9;
   background-color:#000;
   text-align: center;
 }
 #whyus h1{
-  color: #006eff;
+  color: #008eb9;
 }
 
 
@@ -524,7 +531,7 @@ margin-left: 10px;
   justify-content: space-between;
 }
 #features .box{
-border: 1px solid #006eff;
+border: 1px solid #008eb9;
 border-radius: 10px;
 width: 33%;
 padding: 60px 30px;
@@ -546,11 +553,11 @@ transition: 0.3s;
 }
 #features .box:hover{
   box-shadow: 1px 2px;
-  background-color: #006eff;
+  background-color: #008eb9;
 }
 
 #features .svgBox{
-  background-color: #006eff;
+  background-color: #008eb9;
   background-position: left;
   border-radius: 10px;
   padding: 10px;
@@ -575,25 +582,25 @@ transition: 0.3s;
 
 #features .box:hover .svgBox{
   background-color: #000;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
 }
 
 #features .box:hover svg{
-  fill: #006eff;
+  fill: #008eb9;
 }
   /*   box 2*/
 
 
   
 #features .box2{
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 10px;
   width: 33%;
   padding: 60px 30px;
   box-shadow: 3px 5px;
   margin: 20px 15px;
   transition: 0.3s;
-  background-color: #006eff;
+  background-color: #008eb9;
   }
   #features .box2 h5{
     margin: 10px 0;
@@ -624,12 +631,12 @@ transition: 0.3s;
     align-items: center;
     justify-content: center;
     display: flex;
-    border: 1px solid #006eff;
+    border: 1px solid #008eb9;
     transition: 0.3s;
   }
   
   #features  .svg2{
-    fill: #006eff;
+    fill: #008eb9;
     
   }
   #features .box2:hover p,
@@ -638,7 +645,7 @@ transition: 0.3s;
   }
   
   #features .box2:hover .svgBox2{
-    background-color: #006eff;
+    background-color: #008eb9;
   }
   
   #features .box2:hover svg{
@@ -669,13 +676,13 @@ transition: 0.3s;
   margin-bottom: 150px;
   font-size: 60px;
   z-index: 5;
-  color: #006eff;
+  color: #008eb9;
 }
 #projects .workBox{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   padding: 20px;
   margin: 30px 0;
   border-radius: 20px;
@@ -683,7 +690,7 @@ transition: 0.3s;
 }
 
 #projects h3{
-  color: #006eff;
+  color: #008eb9;
 }
 #projects .sBox{
   width: 80%;
@@ -720,7 +727,7 @@ transition: 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 15px;
   margin: 0 10px;
   padding: 25px 20px;
@@ -756,7 +763,7 @@ transition: 0.3s;
 
 #payment h2{
 margin: 60px 0;
-color: #006eff;
+color: #008eb9;
 margin: 100px 0 50px 0;
 }
 #payment .row{
@@ -767,7 +774,7 @@ margin: 100px 0 50px 0;
 }
 #payment .pay{
 
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 10px;
   width: 33%;
   padding: 60px 30px 20px 30px;
@@ -784,7 +791,7 @@ margin: 100px 0 50px 0;
   color: #fff;
 }
 #payment h3{
-  background: #006eff;
+  background: #008eb9;
   color: #000;
   border-radius: 5px;
   font-weight: 400;
@@ -807,7 +814,7 @@ margin: 100px 0 50px 0;
 }
 
 #payment .pay:hover{
-  background-color: #006eff;
+  background-color: #008eb9;
   color: #000;
   background-position: left;
   box-shadow: 4px 6px  #000;
@@ -821,7 +828,7 @@ margin: 100px 0 50px 0;
 }
 #payment .pay:hover h3{
   background: #000;
-  color: #006eff;
+  color: #008eb9;
 }
 #payment .pay:hover button{
   background: #000;
@@ -836,7 +843,7 @@ margin: 100px 0 50px 0;
 }
 #details .con{
   width: 100%;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 10px;
   padding: 60px 30px 20px 30px;
   box-shadow: 3px 5px;
@@ -871,7 +878,7 @@ margin-top: 20px;
   justify-content: center;
 }
 #details p{
-  background-color: #006eff;
+  background-color: #008eb9;
   padding: 8px 0;
   color: #141414;
   font-weight: 600;
@@ -902,7 +909,7 @@ margin-top: 20px;
   font-weight: 600;
   margin-bottom: 150px;
   font-size: 60px;
-  color: #006eff;
+  color: #008eb9;
 }
 
 #contact form{
@@ -913,7 +920,7 @@ margin-top: 20px;
 }
 
 #contact form label{
-  color: #006eff;
+  color: #008eb9;
   font-size: 16px;
   font-weight: 600;
 }
@@ -922,11 +929,11 @@ margin-top: 20px;
   width: 100%;
   padding: 18px;
   background: transparent;
-  border: 2px solid #006eff;
+  border: 2px solid #008eb9;
   outline: none;
   border-radius: 6px;
   font-size: 16px;
-  color: #006eff;
+  color: #008eb9;
   margin: 16px 0;
 }
 #contact .input-box{
@@ -941,7 +948,7 @@ margin-top: 20px;
 }
 .container{
   text-align: center;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 20px;
   padding: 50px 50px;
   display: flex;
@@ -949,19 +956,19 @@ margin-top: 20px;
   align-items: center;
 }
 .container h4{
-  color: #006eff;
+  color: #008eb9;
   font-size: 16px;
   margin: 20px 0;
   border-radius: 10px;
   padding: 12px;
   display: inline;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
 }
 
 .more-info{
   margin-top: 20px;
   text-align: center;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 20px;
   padding: 50px 50px;
   display: flex;
@@ -970,17 +977,17 @@ margin-top: 20px;
 
 }
 .more-info h4{
-  color: #006eff;
+  color: #008eb9;
   font-size: 16px;
   margin: 20px 0;
   border-radius: 10px;
   padding: 12px;
   display: inline;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
 
 }
 .more-info h3{
-  color: #006eff;
+  color: #008eb9;
   font-size: 26px;
   margin: 20px 0;
   padding: 12px;
@@ -1017,7 +1024,7 @@ margin-top: 20px;
   padding-top: 40px ;
 }
 #FAQ h1{
-  color: #006eff;
+  color: #008eb9;
   text-align: center;
 }
 /* Style the buttons that are used to open and close the accordion panel */
@@ -1035,14 +1042,14 @@ margin-top: 20px;
 }
 .accordion {
   border-radius: 0;
-  border-bottom: 0.5px solid #006eff;
+  border-bottom: 0.5px solid #008eb9;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color:#000;
   box-shadow: 0 0 1px;
-  color: #006eff;
+  color: #008eb9;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -1060,7 +1067,7 @@ margin-top: 20px;
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
   font-size: 13px;
-  color: #006eff;
+  color: #008eb9;
   float: right;
   margin-left: 5px;
 }
@@ -1094,7 +1101,7 @@ footer .sec{
   width: 30%;
 }
 footer .sec h3{
-  color: #006eff;
+  color: #008eb9;
 }
 footer .sec p{
   font-weight: 600;
@@ -1122,7 +1129,7 @@ footer .copy{
   margin: 60px 0 10px 0 ;
 }
 footer .copy h5{
-  color:#006eff;
+  color:#008eb9;
 }
 /* Preloader Start */
 #preloader{
@@ -1184,7 +1191,7 @@ footer .copy h5{
 .honeycomb div {
   -webkit-animation: honeycomb 2.1s infinite backwards;
   animation: honeycomb 2.1s infinite backwards;
-  background: #006eff;
+  background: #008eb9;
   height: 12px;
   margin-top: 6px;
   position: absolute;
@@ -1202,12 +1209,12 @@ footer .copy h5{
 
 .honeycomb div:after {
   top: -6px;
-  border-bottom: 6px solid #006eff;
+  border-bottom: 6px solid #008eb9;
 }
 
 .honeycomb div:before {
   bottom: -6px;
-  border-top: 6px solid #006eff;
+  border-top: 6px solid #008eb9;
 }
 
 .honeycomb div:nth-child(1) {
@@ -1278,7 +1285,7 @@ button.normal{
   color: #fff;
 
   border: 1px solid #fff;
-  background-color: #006eff ;
+  background-color: #008eb9 ;
   transition: 0.2s;
   cursor: pointer; 
   transition: 0.2s;
@@ -1298,12 +1305,12 @@ button.normal{
 
   #navBar.sticky{
     padding: 8px 30px;
-    background: #006eff;
+    background: #008eb9;
   }
   
  #offMenu{
   z-index: 2000;
-  background: #006eff;
+  background: #008eb9;
   backdrop-filter: blur(80px);
   padding: 60px 20px;
   overflow: hidden;
@@ -1577,7 +1584,7 @@ transition: 0.8s;
   text-align: center;
   flex-direction: column;
   align-items: start;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   padding: 20px;
   margin: 30px 0;
   border-radius: 10px;
@@ -1588,7 +1595,7 @@ transition: 0.8s;
 }
 
 #projects h3{
-  color: #006eff;
+  color: #008eb9;
   margin: 30px 0;
 }
 #projects .sBox{
@@ -1622,7 +1629,7 @@ transition: 0.8s;
 
 #review .sec{
   width: 100%;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 15px;
   margin: 20px 10px;
   padding: 25px 20px;
@@ -1786,7 +1793,7 @@ margin-top: 20px;
 
 
 #contact form label{
-  color: #006eff;
+  color: #008eb9;
   font-size: 12px;
   text-align: left;
   font-weight: 600;
@@ -1796,7 +1803,7 @@ margin-top: 20px;
   width: 100%;
   padding: 18px;
   background: transparent;
-  border: 2px solid #006eff;
+  border: 2px solid #008eb9;
   outline: none;
   border-radius: 6px;
   font-size: 14px;
@@ -1815,7 +1822,7 @@ margin-top: 20px;
 }
 .container{
   text-align: center;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 20px;
   padding: 50px 20px;
   display: flex;
@@ -1826,7 +1833,7 @@ margin-top: 20px;
 .more-info{
   margin-top: 20px;
   text-align: center;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
   border-radius: 20px;
   padding: 50px 50px;
   display: flex;
@@ -1835,17 +1842,17 @@ margin-top: 20px;
 
 }
 .more-info h4{
-  color: #006eff;
+  color: #008eb9;
   font-size: 14px;
   margin: 20px 0;
   border-radius: 10px;
   padding: 8px;
   display: inline;
-  border: 1px solid #006eff;
+  border: 1px solid #008eb9;
 
 }
 .more-info h3{
-  color: #006eff;
+  color: #008eb9;
   font-size: 20px;
   margin: 20px 0;
   padding: 12px;
